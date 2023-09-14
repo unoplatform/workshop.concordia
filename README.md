@@ -1,3 +1,1 @@
-# template
-
-template for brand new github repositories
+# Workshop for Concordia University

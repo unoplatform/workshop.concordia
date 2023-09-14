@@ -1,0 +1,10 @@
+{
+  "background_color": "#ffffff",
+  "description": "WorkshopConcordia",
+  "display": "standalone",
+  "name": "WorkshopConcordia",
+  "short_name": "WorkshopConcordia",
+  "start_url": "/index.html",
+  "theme_color": "#ffffff",
+  "scope": "/"
+}

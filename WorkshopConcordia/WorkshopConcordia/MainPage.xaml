@@ -1,0 +1,42 @@
+<Page x:Class="WorkshopConcordia.MainPage"
+	  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	  xmlns:local="using:WorkshopConcordia"
+	  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	  mc:Ignorable="d"
+	  xmlns:utu="using:Uno.Toolkit.UI"
+	  Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto" />
+			<RowDefinition />
+		</Grid.RowDefinitions>
+
+		<utu:NavigationBar Content="Workshop - Concordia" />
+
+		<StackPanel Grid.Row="1"
+					Orientation="Vertical"
+					VerticalAlignment="Center"
+					HorizontalAlignment="Center"
+					Spacing="20">
+			<TextBlock Text="Name: Uno Platform"
+					   FontSize="20" />
+			<TextBlock Text="Email Address: info@platform.uno"
+					   FontSize="20" />
+			<TextBlock Text="Date of Birth: 13-09-2023"
+					   FontSize="20" />
+			<TextBlock Text="Phone Number: 1-888-926-1276"
+					   FontSize="20" />
+			<TextBlock Text="Address: 215 rue St-Jacques, Suite 500 Montreal QC, H2Y 1M6"
+					   FontSize="20" />
+			<TextBlock Text="Website: https://platform.uno"
+					   FontSize="20" />
+
+			<Button x:Name="Button1"
+					Content="Button"
+					HorizontalAlignment="Center" />
+		</StackPanel>
+	</Grid>
+</Page>
